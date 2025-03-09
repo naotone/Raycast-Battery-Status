@@ -1,0 +1,37 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "battery-status",
+  "title": "Battery Status",
+  "description": "Display battery status information",
+  "icon": "icon.png",
+  "author": "naotone",
+  "categories": [
+    "System"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "battery-status",
+      "title": "Battery Status",
+      "description": "Shows current battery status with charging information",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.55.2",
+    "execa": "^5.1.1"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.6",
+    "@types/node": "^18.18.4",
+    "@types/react": "^18.2.27",
+    "eslint": "^8.51.0",
+    "react-devtools": "^6.1.1",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "lint": "ray lint"
+  }
+}

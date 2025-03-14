@@ -212,8 +212,7 @@ export default function Command() {
                   target={
                     <List>
                       <List.Item
-                        title="Current Mode"
-                        subtitle={batteryInfo?.lowPowerModeSetting || 'Unknown'}
+                        title="Change Low Power Mode"
                         icon={Icon.Info}
                       />
                       <List.Item
